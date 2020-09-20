@@ -13,11 +13,13 @@ body {
 
 }
 
+/*Header*/
+
 div.header {
-    /*margin: 0 auto;*/
-    height: 744px;
+    height: 95px;
+    position: fixed;
     width: 1600px;
-    background-image: url(./assets/images/bg-image-wrapper.png);
+    background-color: #000000;
     font-family: Roboto, Arial, sans-serif;
     color: #FFFFFF;
     display: flex;
@@ -42,11 +44,33 @@ div.header ul li {
     padding-left: 47px;
 }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 li:first-child {
     text-decoration: underline
 }
 
-div.header p:nth-child(2) {
+div.header h1 {
+    display: none;
+}
+
+/*Your Life*/
+
+div.your-life {
+    background-image: url(./assets/images/bg-image-wrapper.png);
+    font-family: Roboto, Arial, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-top: 235px;
+    padding-left: 80px;
+}
+
+div.your-life p:first-child {
     font-size: 64px;
     font-weight: bold;
     text-transform: uppercase;
@@ -55,7 +79,7 @@ div.header p:nth-child(2) {
     padding-bottom: 26px;
 }
 
-div.header p:nth-child(3) {
+div.your-life p:nth-child(2) {
     font-size: 18px;
     text-align: center;
     width: 480px;
@@ -65,7 +89,7 @@ div.header p:nth-child(3) {
     padding-bottom: 30px;
 }
 
-div.header button {
+div.your-life button {
     width: 184px;
     height: 46px;
     font-size: 14px;
@@ -76,14 +100,65 @@ div.header button {
     margin: 0 auto;
 }
 
-div.pics {
+div.your-life div.pics {
     display: flex;
     justify-content: center;
-    padding-top: 180px;
+    padding-top: 183px;
+    padding-bottom: 89px;
+}
+
+div.your-life div.pics img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Rappresent*/
+
+div.rappresent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 842px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+div.rappresent div:first-child {
+    width: 407px;
+    padding-left: 107px;
+}
+
+div.rappresent p:first-child {
+    font-family: Roboto-bold, Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
 
 }
 
-div.pics img {
-    padding-left: 15px;
-    padding-right: 15px;
+div.rappresent p strong {
+    font-weight: bold;
+}
+
+div.rappresent p:nth-child(2) {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.rappresent button {
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #00AFDB;
+    margin: 0 auto;
+}
+
+div.rappresent div:nth-child(2) {
+    margin-left: -120px;
 }
