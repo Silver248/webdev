@@ -60,6 +60,7 @@ div.header h1 {
 /*Your Life*/
 
 div.your-life {
+    width: 1600px;
     background-image: url(./assets/images/bg-image-wrapper.png);
     font-family: Roboto, Arial, sans-serif;
     color: #FFFFFF;
@@ -67,7 +68,7 @@ div.your-life {
     flex-direction: column;
     font-size: 14px;
     padding-top: 235px;
-    padding-left: 80px;
+    padding-left: 0px;
 }
 
 div.your-life p:first-child {
@@ -115,13 +116,15 @@ div.your-life div.pics img {
 /*Rappresent*/
 
 div.rappresent {
+    width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 842px;
-    margin-left: -10px;
+    margin-left: -33px;
     margin-top: -10px;
+    margin-bottom: 50px;
 }
 
 div.rappresent div:first-child {
@@ -132,8 +135,7 @@ div.rappresent div:first-child {
 div.rappresent p:first-child {
     font-family: Roboto-bold, Arial, sans-serif;
     font-size: 24px;
-    text-transform: uppercase;
-
+    text-transform: uppercase
 }
 
 div.rappresent p strong {
@@ -160,5 +162,73 @@ div.rappresent button {
 }
 
 div.rappresent div:nth-child(2) {
-    margin-left: -120px;
+    margin-left: -260px;
+}
+
+/*community*/
+
+div.community {
+    width: 1600px;
+    height: 504px;
+    background-color: #F5F6F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -40px;
+}
+
+div.community div:first-child {
+    width: 298px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 120px;
+    padding-top: 20px;
+}
+
+div.community div img {
+    padding-bottom: 30px;
+}
+
+p.arrow a {
+    text-decoration: none;
+    color: black;
+}
+
+div.community div p:nth-child(2) {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+div.community div p:nth-child(3) {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+div.community div.slider-symbols {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    padding-left: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.community div.slider-symbols p {
+    padding-left: 10px;
+}
+
+div.community-pic {
+
+}
+
+div.community-pic img {
+    padding-left: 25px;
 }
