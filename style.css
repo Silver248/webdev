@@ -225,10 +225,6 @@ div.community div.slider-symbols p {
     padding-left: 10px;
 }
 
-div.community-pic {
-
-}
-
 div.community-pic img {
     padding-left: 25px;
 }
@@ -325,3 +321,73 @@ div.sign-up form button {
     background-color: #00AFDB;
 }
 
+/*download*/
+
+div.download {
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+div.download h2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+div.download p.download-text {
+    width: 480px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.download div img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*footer*/
+
+div.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 185px;
+    background-color: #000000;
+    width: 1600px;
+    text-align: center;
+    margin: auto 0;
+    padding-top: 80px;
+}
+
+div.footer div ul {
+    display: flex;
+    flex-direction: row;
+}
+
+div.footer ul li {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+div.footer p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #818181;
+}
