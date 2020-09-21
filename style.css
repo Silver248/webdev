@@ -135,7 +135,7 @@ div.rappresent div:first-child {
 div.rappresent p:first-child {
     font-family: Roboto-bold, Arial, sans-serif;
     font-size: 24px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 div.rappresent p strong {
@@ -232,3 +232,96 @@ div.community-pic {
 div.community-pic img {
     padding-left: 25px;
 }
+
+/*implement*/
+
+div.implement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 842px;
+}
+
+div.implement img {
+    padding-right: 125px;
+}
+
+div.implement div{
+    width: 407px;
+    padding-left: 40px;
+}
+
+div.implement div p:first-child {
+    font-family: Roboto-bold, Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+div.implement div p strong {
+    font-weight: bold;
+}
+
+div.implement div p:nth-child(2) {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.implement button {
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #00AFDB;
+    margin: 0 auto;
+}
+
+
+/*sign-up*/
+
+div.sign-up {
+    height: 524px;
+    background-image: url(./assets/images/pexels-christina-morillo-1181675\ 1.png);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1600px;
+}
+
+div.sign-up form {
+    width: 456px;
+    padding-top: 200px;
+
+}
+
+div.sign-up form p {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-left: 48px;
+    letter-spacing: 0.25px;
+    padding-bottom: 32px;
+}
+
+div.sign-up form input {
+    margin-left: 10px;
+    height: 46px;
+    padding-left: 20px;
+}
+
+div.sign-up form button {
+    margin-left: -5px;
+    margin-top: 7px;
+    height: 52px;
+    width: 66px;
+    color: #FFFFFF;
+    background-color: #00AFDB;
+}
+
